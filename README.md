@@ -18,8 +18,7 @@ This is a sample POM framework to automate Amazon Android app
 ** Prerequisites** 
 
 - Appium configuration should be up and running (Can use appium-doctor -h to see the configuration)
-- Android tab Simulator or Galaxy S tab real device **(On small devices if the element is not visible due to screen size or keypad the test's will fail)**
-
+- Android tab Simulator or Galaxy S tab real device
 ** Steps to run the code ** 
 
 * Import the project as maven project preferable in eclipse to avoid any issues
@@ -32,6 +31,5 @@ Note:
 - Havn't used assertion in the test cases every where except first one which is to verify email
 - We can also create the methods in normal call and call these method in the test class to only assert them
 - for now I have deleted the test-output folder though allure-resukts folder is still there
-- Allure report may not generate report due to some configuration issue
-- Currently all the elements found have been kept on two pages AmazonHomePageAndroid , LandingPageAndroid and same goes for test cases.
+- Currently all the elements found have been kept on two pages LandingPageAndroid and same goes for test cases.
 
