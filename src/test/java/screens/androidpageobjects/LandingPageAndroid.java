@@ -38,7 +38,7 @@ public class LandingPageAndroid extends ScreenBase {
             e.printStackTrace();
         }
     }
-    
+
 
 
 
@@ -58,18 +58,5 @@ public class LandingPageAndroid extends ScreenBase {
     }
 
 
-//    public void enterUsername() {
-//        System.out.println("account: " + driver);
-//        driver.findElement(username).sendKeys(USERNAME);
-//    }
-//    public void enterPassword() {
-//        System.out.println("enterPassword: " + driver);
-//        driver.findElement(password).sendKeys(PASSWORD);
-//    }
-//
-//    public void storm_in1() {
-//        System.out.println("account: " + driver);
-//        driver.findElement(storm_in).click();
-//    }
 
 }
