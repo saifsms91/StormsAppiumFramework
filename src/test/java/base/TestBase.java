@@ -22,9 +22,9 @@ public class TestBase {
         System.out.println("Setup TestCase");
 
         CommonUtils utils = new CommonUtils();
-
         utils.setup(AppConfigTags.ANDROID, AppConfigTags.MOTOROLA, Constants.ANDROID_URI);
-        driver = utils.driver;
+        driver = utils.driver
+       ;
 
     }
 
