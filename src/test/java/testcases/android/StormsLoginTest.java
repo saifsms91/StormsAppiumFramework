@@ -20,7 +20,6 @@ public class StormsLoginTest extends TestBase {
 
         LandingPage.tapAccount();
         LandingPage.login();
-        System.out.println("beloq: ");
         LandingPage.hamBurger();
         String USERNAMETEXT = LandingPage.userNameText();
         assertEquals(USERNAMETEXT, "@saif");
