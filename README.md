@@ -21,7 +21,7 @@ This is a sample POM framework to automate Storm Android app
 - Android Device Simulator (The test was done on real Samsung galaxy A 50 device)
 ### Steps to run the code
 
-* Import the project as maven project preferable in InteeliJ to avoid any issues
+* Import the project as maven project preferable in IntelliJ to avoid any issues
 * Click Next
 * Click Browse and select the folder that is the root of the Maven project (contains the pom.xml file)
 * Click Next
