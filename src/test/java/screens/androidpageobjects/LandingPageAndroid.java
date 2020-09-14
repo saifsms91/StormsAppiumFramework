@@ -1,23 +1,22 @@
 package screens.androidpageobjects;
 
+import base.ScreenBase;
+import org.openqa.selenium.By;
+import utils.CommonUtils;
+
 import java.io.IOException;
 import java.util.Properties;
-
-import org.openqa.selenium.By;
-
-import base.ScreenBase;
-import utils.CommonUtils;
 
 public class LandingPageAndroid extends ScreenBase {
 
     String USERNAME = "";
     String PASSWORD = "";
     By account;
-    By username ;
-    By password ;
-    By storm_in ;
-//
-    By Logout;
+    By username;
+    By password;
+    By storm_in;
+    By hamburger;
+    By usernametext;
 
     //constructor
 
@@ -27,19 +26,17 @@ public class LandingPageAndroid extends ScreenBase {
             USERNAME = properties.getProperty("email");
             PASSWORD = properties.getProperty("password");
             account = By.xpath(properties.getProperty("account"));
-
             username = By.xpath(properties.getProperty("username"));
             password = By.xpath(properties.getProperty("passwordl"));
             storm_in = By.xpath(properties.getProperty("storm_in"));
-//
-            Logout = By.xpath(properties.getProperty("logout"));
+            hamburger = By.xpath(properties.getProperty("hamburger"));
+            usernametext = By.xpath(properties.getProperty("usernametext"));
+
 
         } catch (IOException e) {
             e.printStackTrace();
         }
     }
-
-
 
 
     public void tapAccount() {
@@ -53,10 +50,14 @@ public class LandingPageAndroid extends ScreenBase {
         driver.findElement(storm_in).click();
     }
 
-    public String logOut() {
-        return driver.findElement(Logout).getText();
+    public void hamBurger() {
+        driver.findElement(hamburger).click();
     }
 
+    public String userNameText() {
+
+        return driver.findElement(usernametext).getText();
+    }
 
 
 }

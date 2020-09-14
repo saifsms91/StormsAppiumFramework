@@ -1,13 +1,13 @@
 package base;
-import java.net.MalformedURLException;
 
-import org.testng.annotations.AfterSuite;
-import org.testng.annotations.BeforeSuite;
 import io.appium.java_client.AppiumDriver;
+import org.testng.annotations.BeforeSuite;
 import screens.androidpageobjects.LandingPageAndroid;
-import utils.CommonUtils;
 import utils.AppConfigTags;
+import utils.CommonUtils;
 import utils.Constants;
+
+import java.net.MalformedURLException;
 
 public class TestBase {
 
@@ -24,7 +24,7 @@ public class TestBase {
         CommonUtils utils = new CommonUtils();
         utils.setup(AppConfigTags.ANDROID, AppConfigTags.MOTOROLA, Constants.ANDROID_URI);
         driver = utils.driver
-       ;
+        ;
 
     }
 

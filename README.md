@@ -1,12 +1,12 @@
 
-#Appium--testng-POM-framework #
+# Appium--testng-POM-framework
 
 
 Highlights:
 This is a sample POM framework to automate Amazon Android app
 
 
-#Technology stack:
+## Technology stack:
 - TestNG (test runner)
 - Appium (mobile testing)
 - Selenium (web app testing) [Used as a wrapper for appium]
@@ -15,11 +15,11 @@ This is a sample POM framework to automate Amazon Android app
 - Maven (Dependency Manager)
 - Page Object Model
 
-** Prerequisites** 
+### Pre-requisites
 
 - Appium configuration should be up and running (Can use appium-doctor -h to see the configuration)
 - Android tab Simulator or Galaxy S tab real device
-** Steps to run the code ** 
+### Steps to run the code
 
 * Import the project as maven project preferable in eclipse to avoid any issues
 * Click Next
@@ -27,7 +27,7 @@ This is a sample POM framework to automate Amazon Android app
 * Click Next
 * Click Finish
 
-Note: 
+#### Note: 
 - Havn't used assertion in the test cases every where except first one which is to verify email
 - We can also create the methods in normal call and call these method in the test class to only assert them
 - for now I have deleted the test-output folder though allure-resukts folder is still there
