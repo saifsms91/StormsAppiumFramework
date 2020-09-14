@@ -3,7 +3,7 @@
 
 
 Highlights:
-This is a sample POM framework to automate Amazon Android app
+This is a sample POM framework to automate Storm Android app
 
 
 ## Technology stack:
